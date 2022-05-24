@@ -6,6 +6,9 @@ use App\Comment;
 
 class PostTest extends TestCase{
 
+/**
+ * AddComment() adds a comment to a post
+ */
   public function test_add_comment_to_post(){
 
     $post = new Post();
